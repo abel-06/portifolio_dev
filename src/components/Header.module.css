@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    background: #119FCF;
+background: linear-gradient(180deg, rgba(17, 159, 207, 1) 0%, rgba(124, 228, 230, 1) 0%, rgba(124, 228, 230, 1) 95%, rgba(17, 159, 207, 1) 100%);
+    top: 0;
+    left: 0; 
+    width: 100%;
+    color: #025773;
+    z-index: 1000;
+    height: 90px;
+}
+.header h1 {
+    font-size: 2rem;
+    margin: 0;
+    font-family: helvetica;
+}

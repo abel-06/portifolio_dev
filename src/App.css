@@ -1,0 +1,100 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  width: 100vw;
+  background-color: #EBC8B2;
+  font-family: Helvetica;
+}
+
+.imagem-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 540px;
+  object-fit: cover;
+  border: 5px solid #119FCF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+}
+.apresentacao h1 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+.apresentacao p {
+  font-size: 1 rem;
+  color: #4A4949;
+  margin-bottom: 20px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.borracharia {
+  width: 800px;
+  height: 600px;
+  margin-bottom: 100px;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #119FCF;
+  background: linear-gradient(180deg, rgba(17, 159, 207, 1) 0%, rgba(124, 228, 230, 1) 6%, rgba(124, 228, 230, 1) 100%, rgba(17, 159, 207, 1) 100%);
+}
+.footer h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-family: helvetica;
+  align-items: center;
+  justify-content: center;
+}
+.social {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.social:hover {
+  background-color: #3E849C; 
+}
+.social svg {
+  margin-right: 5px;
+}
