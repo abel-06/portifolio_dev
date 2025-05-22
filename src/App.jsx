@@ -25,7 +25,7 @@ function App() {
           <strong>Projetos</strong>
           </h1>
           <a href="https://abel-06.github.io/Financeiro-borracharia/" >
-          <img src="./financeiro_print.jpg" alt="imagem borracharia" className='borracharia' />
+          <img src={`${process.env.PUBLIC_URL}/financeiro_print.jpg`} alt="imagem borracharia" className='borracharia' />
           </a>
       </div>
 
