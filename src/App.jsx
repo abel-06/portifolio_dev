@@ -10,7 +10,7 @@ function App() {
       <Header />
       <div className="container">
         <img
-        src="/Screenshot_20250521_120159_Gallery.jpg" alt='imagem de perfil'
+        src="./Screenshot_20250521_120159_Gallery.jpg" alt='imagem de perfil'
         className='imagem-perfil'
          />
       </div>
@@ -25,7 +25,7 @@ function App() {
           <strong>Projetos</strong>
           </h1>
           <a href="https://abel-06.github.io/Financeiro-borracharia/" >
-          <img src="/public/financeiro_print.jpg" alt="imagem borracharia" className='borracharia' />
+          <img src="./financeiro_print.jpg" alt="imagem borracharia" className='borracharia' />
           </a>
       </div>
 
